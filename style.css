@@ -95,13 +95,16 @@ main {
 
 /* CARD THREE */
 .card-three {
-    
+    background-color: var(--white);
+    color: var(--dark-greyish-blue);    
     grid-area: three;
 }
 
 /* CARD FOUR */
 .card-four {
     grid-area: four;
+    background-color: var(--dark-blackish-blue);
+    color: var(--white);
 }
 
 /* CARD FIVE */
