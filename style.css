@@ -20,6 +20,16 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     background-color: var(--light-greyish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 250px);
 }
 
 /* common to all cards */
