@@ -50,7 +50,7 @@ main {
 .card-header img {
     border-radius: 50%;
     border: 2px solid var(--light-grey);
-    width: 2rem;
+    width: 1.7rem;
 }
 
 .card-header .profile-name {
@@ -82,6 +82,12 @@ main {
     background-repeat: no-repeat;
     background-position-x: 20rem;
 } 
+
+/* CARD TWO */
+.card-two {
+    color: var(--white);
+    background-color: var(--dark-greyish-blue);
+}
 
 /* CARD FIVE */
 .card-five {
